@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;    
+}
+
+::-webkit-scrollbar { 
+    display: none;
+}
+
+body {
+    min-width: 100vH;
+    color: white;
+    background-color: black;
+    display: flex;
+    background-attachment: fixed;
+}
+
+.dark-mode {
+  color: black;
+  background-color: white;
+}
+
+.fade {
+    width: 100%;
+    max-width: 660px;
+    margin: auto;
+    background-image: linear-gradient(
+        transparent .5%,
+        currentColor 20%, 85%,
+        transparent 95%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-attachment: fixed;
+    padding-top: 8.5%;
+    
+}
+
+
+.fade p {
+    margin: 20px 0;
+    font-size: 20px;
+    color: transparent;
+}
+
+#uvod {
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+header {
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: inherit;
+}
+
+header a {
+    font-size: 1.5em;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    
+}
+
+.topheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: inherit;
+}
+
+.logo {
+  max-width: 100%;
+  padding-top: 20px;
+  padding-left: 25px; 
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.headdiv {
+  width: 100%;
+  padding-left: 25px;
+  background-color: inherit;
+}
+
+.headdiv a {
+  padding-top: 60px;
+  width: 20%;
+  display: block;
+  width: 100%;
+  color: inherit;
+
+}
+
+.about-hover {
+    position: relative;
+    text-decoration: none;
+    background-color: inherit;
+  }
+  
+  .about-hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: inherit;
+    filter: invert(1);
+    transform-origin: bottom left;
+    transition: transform .5s ease-out;
+  }
+  
+  .about-hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } 
+
+  .contact-hover {
+    position: relative;
+    text-decoration: none;
+    background-color: inherit;
+  }
+  
+  .contact-hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: inherit;
+    filter: invert(1);
+    transform-origin: bottom left;
+    transition: transform .5s ease-out;
+  }
+  
+  .contact-hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } 
+
+  .donate-hover {
+    position: relative;
+    text-decoration: none;
+    background-color: inherit;
+    
+  }
+  
+  .donate-hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: inherit;
+    filter: invert(1);
+    transform-origin: bottom left;
+    transition: transform .5s ease-out;
+  }
+  
+  .donate-hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  } 
+
+.botheader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: inherit;
+  }
+
+.sliderdiv {
+  position: relative;
+  display: flex;
+  align-items: end;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+  background-color: inherit;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  background-color: inherit;
+  
+}
+
+.languages a{
+  font-size: 1.25em;
+  width: 33.33%;
+  text-align: center;
+  padding: 25px 0 25px 0;
+  background-color: inherit;
+  
+}
+
+.languages a:hover{
+  background-color: inherit;
+  color: inherit;
+  filter: invert(1);
+}
+
+.active {
+  background-color: inherit;
+  color: inherit;
+  filter: invert(1);
+}
+
+.textselect {
+  user-select: none;
+}
+
