@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+.donatediv {
+    width: 100%;
+    max-width: 720px;
+    max-height: fit-content;
+    display: grid;
+    margin: auto;
+    background-image: url(support.jpg);
+    background-position: 25%;
+    background-size: 220%;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+    transform: translateY(-90%);
+}
+
+.donatediv:hover {
+    transform: translateY(0);
+}
+
+.logos {
+    width: 100%;
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+    
+}
+
+.pglogo {
+    width: 33%;
+}
+
+.printhelp {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 15px;
+}
+
+.printhelp p {
+    font-size: 4em;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 100%;
+    color:white;
+
+}
+
+.donateinfo {
+    margin: auto;
+    padding-bottom: 20px;
+    max-width: 60%;
+    text-align: center;
+}
+
+.donateinfo p {
+    font-size: 1.15em;
+    color: white;
+}
+
+.donatetitle {
+    padding-top: 150px;
+    user-select: none;
+}
+
+.donatetitle p {
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    
+}
+
+
+.button {
+    margin: auto;
+    position: relative;
+    width: fit-content;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5%;
+    font-size: 2em;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
