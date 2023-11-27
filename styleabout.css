@@ -1,22 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Noto+Serif+Display:ital,wght@1,200&family=Roboto:wght@300;400&display=swap');
+
 .aboutcontent {
-    display: grid;
-    place-items: center;
+    display: flex;
     width: 100%;
-    padding-top: 4.5%;
+    padding-left: 21%;
+    padding-top: 5vh;
+    padding-right: 5vh;
 }
 
-.first {
-    width: 400px;
-    border-radius: 50%;
+
+
+.aboutpetr {
+    width: 49.5%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(petr.jpg);
+    padding-bottom: 20px;
+    background-position-x: 27%;
+    margin-right: 5vh;
+    transition: all 1s ease-in-out;
+
+}
+
+.aboutpetr:hover {
+    height: 90vh;
+    transition: all 1s ease-in-out;
+}
+
+.aboutjosef {
+    width: 49.5%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(josef.jpg);
+    padding-bottom: 20px;
+    background-position-x: 23%;
+    background-position-y: 20%;
+    transition: all 1s ease-in-out;
+
+}
+
+.aboutjosef:hover {
+    height: 90vh;
+    transition: all 1s ease-in-out;
 }
 
 .aboutparagraph {
-    width: 660px;
-    font-size: 20px;
-    
+    width: 90%;
 } 
 
-h2 {
-    padding-top: 50px;
-    padding-bottom: 40px;
+.aboutparagraph p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    line-height: 110%;
+    text-shadow: 1px 2px rgba(10,10,10,.5);
+    font-weight: 300;
+}
+
+.h2div {
+    border-bottom: 2px solid white;
+    margin-bottom: 25px;
+}
+
+#nametitle {
+    font-size: 3em;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 75%;
+    font-weight: 700;
+    text-shadow: 1px 1px rgba(10,10,10,.5); 
+}
+
+#titleitalics {
+    font-family: 'Noto Serif Display', serif;
+    font-size: 30px;
+    padding-right: 10px;
+    text-shadow: 1px 1px rgba(10,10,10,.5);
+    padding-left: 3px;
 }
