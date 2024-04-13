@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 .donatediv {
-    width: 100%;
-    max-width: 720px;
-    max-height: fit-content;
+    width: 35%;
+    height: 95vh;
     display: grid;
     margin: auto;
     background-image: url(support.jpg);
-    background-position: 25%;
+    background-position: 25% 0%;
     background-size: 220%;
     background-repeat: no-repeat;
-    transition-duration: 1s;
-    transform: translateY(-90%);
+    transition-duration: 2s;
+    user-select: none;
 }
 
 .donatediv:hover {
-    transform: translateY(0);
+    background-size: 280%;
+    background-position: 25%;
 }
+
 
 .logos {
     width: 100%;
@@ -29,7 +30,7 @@
 }
 
 .pglogo {
-    width: 33%;
+    width: 15%;
 }
 
 .printhelp {
@@ -50,11 +51,11 @@
     margin: auto;
     padding-bottom: 20px;
     max-width: 60%;
-    text-align: center;
+    text-align: left;
 }
 
 .donateinfo p {
-    font-size: 1.15em;
+    font-size: 1.35em;
     color: white;
 }
 
@@ -78,10 +79,9 @@
     position: relative;
     width: fit-content;
     background-color: transparent;
-    border: 2px solid white;
+    border: 3px solid white;
     color: white;
-    padding: 20px 30px;
-    border-radius: 5%;
+    padding: 20px 20%;
     font-size: 2em;
     text-decoration: none;
     transition-duration: 1s;
